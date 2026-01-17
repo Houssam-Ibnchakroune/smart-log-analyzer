@@ -1010,7 +1010,7 @@ wheels = [
 [[package]]
 name = "smart-log-analyzer"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "confluent-kafka" },
     { name = "dotenv" },
